@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "969674478746",
+    "project_id": "fluttertask-bf168",
+    "storage_bucket": "fluttertask-bf168.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969674478746:android:0ed817d5d4a7ee8ff2bb23",
+        "android_client_info": {
+          "package_name": "com.example.flutter_task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5ABldPiNmtDu75UP0Mde7TP50t3cYXx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
