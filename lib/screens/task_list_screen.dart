@@ -20,6 +20,12 @@ class TaskListScreen extends StatelessWidget {
         builder: (c, snap) {
           if (!snap.hasData) return const Center(child: CircularProgressIndicator());
           final tasks = snap.data!;
+          tasks.sort((a, b) {
+            if (a.completed != b.completed) {
+              return a.completed ? 1 : -1;
+            }
+            return a.title.compareTo(b.title);
+          });
           return ListView.builder(
             itemCount: tasks.length,
             itemBuilder: (_, i) => TaskTile(task: tasks[i], service: service),
